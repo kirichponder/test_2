@@ -1,7 +1,15 @@
-a = int(input('Введите число а: '))
-b = int(input('Введите число b: '))
+print("Деление - 1 \nУмножение - 2")
 
-def umn(a,b):
-    return a*b
+o = int(input("Enter: "))
 
-print(umn(a,b))
+a = int(input('а: '))
+b = int(input('b: '))
+
+def umn(o,a,b):
+    if o == 2:
+        return a*b
+    elif o == 1:
+        return a/b
+        
+    
+print(umn(o,a,b))
